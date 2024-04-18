@@ -7,9 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-<!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hongyuan is Master Student at [The Edward S. Rogers Sr. Department of Electrical and Computer Engineering, Univerisity of Toronto](https://www.ece.utoronto.ca/). His research interests span Deep Learning, Reinforcement Learning, Generative Modeling, and Robotics Learning.
 
-A data-driven personal website
+During his Master Study, Hongyuan has worked on a brain-computer interface project where he developed an EEG-based sleep stage classifier using [Muse](https://choosemuse.com/). He has also developed an open-water navigation application for augmented reality swim eyeglasses, Vuzix Labs Smart Swim, under the supervision of Professor [Steve Mann](https://www.ece.utoronto.ca/people/mann-s/) in his Wearable Computing class.
+
+Prior to his Master's, Hongyuan received his Honours Bachelor of Science from [Department of Computer Science, Univerisity of Toronto](https://web.cs.toronto.edu/). He completed an interdisciplinary undergraduate Capstone Project in the field of Urban Mobility Studies, supervised by Professor [David Roberts](https://urban.innis.utoronto.ca/faculty/david-roberts/) from [the School of Cities](https://schoolofcities.utoronto.ca/) and in collaboration with the [IBI Group](https://www.ibigroup.com/), and represented Univerisity of Toronto in [U7+ Student Challenge](https://www.uottawa.ca/faculty-engineering/news-all/u7-student-challenge-addressing-sustainable-development-goals-hosted-uottawa), where they presented their work on addressing sustainable development goals.
+
+
+
+<!-- A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
