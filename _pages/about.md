@@ -1,20 +1,35 @@
 ---
 permalink: /
-title: "Hongyuan Hua's Homepage(Under Construction)"
+title: "Hongyuan Hua's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hongyuan is Master Student at [The Edward S. Rogers Sr. Department of Electrical and Computer Engineering, Univerisity of Toronto](https://www.ece.utoronto.ca/). His research interests span Deep Learning, Reinforcement Learning, Generative Modeling, and Robotics Learning.
+I am a Master Student at [Electrical and Computer Engineering, Univerisity of Toronto](https://www.ece.utoronto.ca/). My research interests includes VLM, Generative Modeling, Autonomous Driving, and Robot Learning. I am also a research intern at [TACO GROUP](https://taco-group.github.io/) advised by [Prof. Zhengzhong Tu](https://vztu.github.io/).
 
-During his Master Study, Hongyuan has worked on a brain-computer interface project where he and this teammates developed an EEG-based sleep stage classifier using [Muse](https://choosemuse.com/) and presented their work [Mersivity Symposium 2023](http://wearcam.org/MersivitySymposium2023.pdf). He has also developed an open-water navigation application for augmented reality swim eyeglasses, Vuzix Labs Smart Swim, under the supervision of Professor [Steve Mann](https://www.ece.utoronto.ca/people/mann-s/) in his Wearable Computing class.
+Previously, I received my Honours Bachelor of Science from [Department of Computer Science, Univerisity of Toronto](https://web.cs.toronto.edu/).
 
-Prior to his Master's, Hongyuan received his Honours Bachelor of Science from [Department of Computer Science, Univerisity of Toronto](https://web.cs.toronto.edu/). He completed an interdisciplinary undergraduate Capstone Project in the field of Urban Mobility Studies, supervised by Professor [David Roberts](https://urban.innis.utoronto.ca/faculty/david-roberts/) from [the School of Cities](https://schoolofcities.utoronto.ca/) and in collaboration with the [IBI Group](https://www.ibigroup.com/), and represented Univerisity of Toronto in [U7+ Student Challenge](https://www.uottawa.ca/faculty-engineering/news-all/u7-student-challenge-addressing-sustainable-development-goals-hosted-uottawa), where they presented their work on addressing sustainable development goals.
+News:
+======
+2024, December - Introduced our open-source project [OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2412.15208), an effort to replicate [Waymo's EMMA](https://waymo.com/intl/zh-cn/research/emma/), now available on arXiv.
+
+2024, December - Our benchmark paper [AutoTrust: Benchmarking Trustworthiness in Large Vision Language Models for Autonomous Driving](https://arxiv.org/abs/2412.15206) is now available on arXiv.
+
+Publications:
+======
+[OpenEMMA: Open-Source Multimodal Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2412.15208)  
+Authors: Shuo Xing, Chengyuan Qian, Yuping Wang, **Hongyuan Hua**, Kexin Tian, Yang Zhou, Zhengzhong Tu  
+
+[AutoTrust: Benchmarking Trustworthiness in Large Vision Language Models for Autonomous Driving](https://arxiv.org/abs/2412.15206)  
+Authors: Shuo Xing, **Hongyuan Hua**, Xiangbo Gao, Shenzhe Zhu, Renjie Li, Kexin Tian, Xiaopeng Li, Heng Huang, Tianbao Yang, Zhangyang Wang, Yang Zhou, Huaxiu Yao, Zhengzhong Tu  
 
 
 
+
+<!-- Projects:
+====== -->
 <!-- A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.

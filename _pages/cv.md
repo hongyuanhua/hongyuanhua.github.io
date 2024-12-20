@@ -9,14 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+<iframe src="../files/paper1.pdf" width="800" height="1000"></iframe>
+
+<!-- Education
+====== -->
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
-* Master of Engineering in Electrical and Computer Engineering, University of Toronto, 2025
+<!-- * Master of Engineering in Electrical and Computer Engineering, University of Toronto, 2025
 * Honours Bachelor of Science in Computer Science, University of Toronto, 2023
 
 Work experience
-======
+====== -->
 <!-- * Spring 2024: Academic Pages Collaborator
   * Github University
   * Duties includes: Updates and improvements to template
