@@ -1,0 +1,33 @@
+# badge_color 可选: blue / green / orange / gray
+# authors 里用 <strong> 标注自己的名字
+# code_url 没有的话删掉那行
+
+- title: "AutoTrust: Benchmarking Trustworthiness in Large Vision Language Models for Autonomous Driving"
+  authors: "Shuo Xing, <strong>Hongyuan Hua</strong>, Xiangbo Gao, Shenzhe Zhu, Renjie Li, Kexin Tian, Xiaopeng Li, Heng Huang, Tianbao Yang, Zhangyang Wang, Yang Zhou, Huaxiu Yao, Zhengzhong Tu"
+  venue: "TMLR 2025"
+  badge_color: "green"
+  abstract: "A comprehensive trustworthiness benchmark for large vision-language models in autonomous driving scenarios."
+  paper_url: "https://arxiv.org/abs/2412.15206"
+  code_url: "https://github.com/taco-group/AutoTrust"
+
+- title: "Open-Source Multimodal Model for End-to-End Autonomous Driving"
+  authors: "Shuo Xing, Chengyuan Qian, Yuping Wang, <strong>Hongyuan Hua</strong>, Kexin Tian, Zhengzhong Tu"
+  venue: "WACV 2025 Workshops · 900+ ⭐"
+  badge_color: "orange"
+  abstract: "An open-source multimodal model achieving state-of-the-art performance on end-to-end autonomous driving benchmarks."
+  paper_url: "https://arxiv.org/abs/2412.15208"
+  code_url: "https://github.com/taco-group/openemma"
+
+# - title: "Generative AI for Autonomous Driving: Frontiers and Opportunities"
+#   authors: "(Core Contributor)"
+#   venue: "Preprint"
+#   badge_color: "gray"
+#   abstract: "A comprehensive survey on generative AI techniques and their applications in autonomous driving."
+#   paper_url: "#"
+
+# - title: "Demystifying the Visual Quality Paradox in Multimodal Large Language Models"
+#   authors: "Shuo Xing*, Lanqing Guo*, <strong>Hongyuan Hua</strong>* (Equal Contribution)"
+#   venue: "Preprint"
+#   badge_color: "gray"
+#   abstract: "Investigates the paradoxical relationship between visual quality and model performance in multimodal large language models."
+#   paper_url: "#"

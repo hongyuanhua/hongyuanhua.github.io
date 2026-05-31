@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>{{ site.name }} | Academic Website</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: { primary: { DEFAULT: '#1a56a0', 700: '#1a56a0', 800: '#164885' } },
+        fontFamily: { sans: ["Inter", "sans-serif"] },
+        borderRadius: { "lg": "0.5rem", "xl": "0.75rem", "2xl": "1rem", "full": "9999px" },
+      },
+    },
+  }
+</script>
+<style>
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; font-size: 1.25rem; }
+  body { font-family: 'Inter', sans-serif; }
+</style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+{% include nav.html %}
+
+<div class="max-w-7xl mx-auto flex pt-16">
+  {% include sidebar.html %}
+
+  <main class="flex-1 lg:ml-72 min-h-screen bg-white">
+    <div class="max-w-4xl mx-auto px-6 md:px-12 py-12 space-y-16">
+
+      <!-- About Me -->
+      <section id="about" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+          <span class="w-8 h-1 bg-blue-700 rounded-full inline-block"></span>
+          About Me
+        </h2>
+        <div class="text-slate-700 leading-relaxed text-lg prose prose-blue max-w-none [&_strong]:text-blue-700 [&_strong_a]:text-blue-700 [&_strong_a]:no-underline hover:[&_strong_a]:underline">
+          {{ content }}
+        </div>
+      </section>
+
+      <!-- News -->
+      {% if site.data.news %}
+      <section id="news" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold text-slate-900 mb-6 flex items-center gap-2">
+          <span class="w-8 h-1 bg-blue-700 rounded-full inline-block"></span>
+          News
+        </h2>
+        <div class="space-y-4">
+          {% for item in site.data.news %}
+          <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100">
+            <span class="shrink-0 px-3 py-1 bg-blue-600 text-white text-xs font-bold rounded-md uppercase tracking-wider">{{ item.date }}</span>
+            <p class="text-slate-700">{{ item.text }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+      {% endif %}
+
+      <!-- Selected Publications -->
+      {% if site.data.publications %}
+      <section id="publications" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-2">
+          <span class="w-8 h-1 bg-blue-700 rounded-full inline-block"></span>
+          Selected Publications
+        </h2>
+        <div class="space-y-6">
+          {% for pub in site.data.publications %}
+          {% include pub_card.html pub=pub %}
+          {% endfor %}
+        </div>
+        <!--
+        <div class="mt-8">
+          <a href="/publications/" class="text-sm font-semibold text-blue-700 hover:underline">View all publications →</a>
+        </div>
+        -->
+      </section>
+      {% endif %}
+
+    </div>
+    {% include footer.html %}
+  </main>
+</div>
+</body>
+</html>

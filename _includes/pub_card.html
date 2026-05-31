@@ -1,0 +1,33 @@
+{% assign pub = include.pub %}
+{% assign color = pub.badge_color | default: "gray" %}
+
+{% if color == "green" %}
+  {% assign badge_class = "bg-green-100 text-green-700" %}
+{% elsif color == "orange" %}
+  {% assign badge_class = "bg-orange-100 text-orange-700" %}
+{% elsif color == "blue" %}
+  {% assign badge_class = "bg-blue-100 text-blue-700" %}
+{% else %}
+  {% assign badge_class = "bg-slate-100 text-slate-600" %}
+{% endif %}
+
+<article class="bg-white p-8 rounded-xl shadow-sm border border-slate-100 transition-shadow hover:shadow-md">
+  <div class="flex justify-between items-start mb-3 gap-4">
+    <a class="text-xl font-bold hover:underline leading-tight" style="color:#1a56a0" href="{{ pub.paper_url | default: '#' }}" {% if pub.paper_url and pub.paper_url != '#' %}target="_blank"{% endif %}>
+      {{ pub.title }}
+    </a>
+    <span class="shrink-0 px-3 py-1 {{ badge_class }} text-xs font-bold rounded-full uppercase tracking-wider">{{ pub.venue }}</span>
+  </div>
+  <div class="text-sm text-slate-600 mb-4 leading-relaxed">{{ pub.authors }}</div>
+  {% if pub.abstract %}
+  <p class="text-sm text-slate-500 mb-6 italic">{{ pub.abstract }}</p>
+  {% endif %}
+  <div class="flex gap-3">
+    {% if pub.paper_url %}
+    <a href="{{ pub.paper_url }}" {% if pub.paper_url != '#' %}target="_blank"{% endif %} class="px-4 py-1.5 border border-slate-200 rounded text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors">[Paper]</a>
+    {% endif %}
+    {% if pub.code_url %}
+    <a href="{{ pub.code_url }}" {% if pub.code_url != '#' %}target="_blank"{% endif %} class="px-4 py-1.5 border border-slate-200 rounded text-xs font-medium text-slate-700 hover:bg-slate-50 transition-colors">[Code]</a>
+    {% endif %}
+  </div>
+</article>

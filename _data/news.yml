@@ -1,0 +1,9 @@
+# 最新的放最前面
+# date: 显示的日期标签
+# text: 新闻内容，支持 HTML 链接
+
+- date: "Oct 2025"
+  text: "<a href='https://arxiv.org/abs/2412.15206' class='text-blue-700 hover:underline font-medium'>AutoTrust</a> accepted to TMLR 2025."
+
+- date: "Jan 2025"
+  text: "<a href='https://arxiv.org/abs/2412.15208' class='text-blue-700 hover:underline font-medium'>OpenEMMA</a> accepted to the WACV 2025 Workshops (900+ GitHub stars)."
